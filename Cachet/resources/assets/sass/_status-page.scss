@@ -75,6 +75,43 @@ body.status-page {
         margin-bottom: 30px;
     }
 
+    .navigation {
+        background: #FFF;
+        border-bottom: solid .01em #eaeef1;
+        height: 5em;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        display: block;
+    }
+
+    .navigation_logo {
+        float: left;
+        height: 100%;
+        max-width: 10rem;
+        cursor: pointer;
+    }
+
+    .banner-image {
+        max-height: 2.4rem;
+        margin: 2rem 0 1rem 1rem;
+        line-height: 3.6em;
+        vertical-align: middle;
+    }
+
+    .navigation_extras {
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        height: calc(100% + 1px);
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
     .about-app {
         margin-bottom: 40px;
         p {
@@ -85,6 +122,13 @@ body.status-page {
     .alert {
         font-size: 1.2em;
         font-weight: 600;
+    }
+
+    .section-status {
+        top: 30px;
+        position: relative;
+        margin-top: 4em;
+        margin-bottom: 5em;
     }
 
     .timeline {
@@ -257,9 +301,11 @@ body.status-page {
         .list-group-item {
             border-radius: 0;
             background-color: #ffffff;
-            border: 1px solid $cachet_gray_light;
+            //border: 1px solid $cachet_gray_light;
             font-size: 1.1em;
-            padding: 15px 15px;
+            //padding: 15px 15px;
+            padding: 1.8rem;
+            border: none;
 
             a {
                 font-weight: 400;
@@ -278,10 +324,10 @@ body.status-page {
 
             &.group-name {
                 background-color: $cachet_gray_light;
-                padding: {
-                    top: 0.6em;
-                    bottom: 0.6em;
-                }
+                //padding: {
+                //    top: 0.6em;
+                //    bottom: 0.6em;
+                //}
                 cursor: pointer;
                 -webkit-touch-callout: none;
                 -webkit-user-select: none;
@@ -294,6 +340,19 @@ body.status-page {
             &.break {
                 padding: 1px;
                 background-color: $cachet-base-medium;
+            }
+
+            .larger {
+                font-size: larger;
+            }
+
+            .text-inline {
+                display: inline-flex;
+            }
+
+            .status-text {
+                margin-left: 2rem;
+                font-size: small;
             }
         }
 
@@ -318,6 +377,10 @@ body.status-page {
 
             a {
                 color: $cachet-base-dark !important;
+            }
+
+            .plus-minus-toggle {
+                margin-left: 2rem;
             }
 
         }

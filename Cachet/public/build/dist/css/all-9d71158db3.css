@@ -12814,7 +12814,7 @@ fieldset[disabled] .btn.btn-inverse.active {
 }
 
 body.dashboard {
-  font-family: FF Mark Pro, "Helvetica Neue", "Helvetica", sans-serif;
+  font-family: FF Mark Pro, "Open Sans", "Helvetica Neue", "Helvetica", sans-serif;
   font-weight: 400;
   font-size: 15px;
   display: table;
@@ -15081,7 +15081,7 @@ body {
 
 body.status-page {
   padding-top: 40px;
-  font-family: FF Mark Pro, "Helvetica Neue", "Helvetica", sans-serif;
+  font-family: FF Mark Pro, "Open Sans", "Helvetica Neue", "Helvetica", sans-serif;
   background-color: #F0F3F4;
   color: #333333;
   font-size: 1.4em;
@@ -15155,6 +15155,39 @@ body.status-page .app-banner {
   margin-bottom: 30px;
 }
 
+body.status-page .navigation {
+  background: #FFF;
+  border-bottom: solid .01em #eaeef1;
+  height: 5em;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: block;
+}
+
+body.status-page .navigation_logo {
+  float: left;
+  height: 100%;
+  max-width: 10rem;
+  cursor: pointer;
+}
+
+body.status-page .banner-image {
+  max-height: 2.4rem;
+  margin: 2rem 0 1rem 1rem;
+  line-height: 3.6em;
+  vertical-align: middle;
+}
+
+body.status-page .navigation_extras {
+  align-items: center;
+  display: flex;
+  height: calc(100% + 1px);
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
 body.status-page .about-app {
   margin-bottom: 40px;
 }
@@ -15166,6 +15199,13 @@ body.status-page .about-app p {
 body.status-page .alert {
   font-size: 1.2em;
   font-weight: 600;
+}
+
+body.status-page .section-status {
+  top: 30px;
+  position: relative;
+  margin-top: 4em;
+  margin-bottom: 5em;
 }
 
 body.status-page .timeline .content-wrapper {
@@ -15348,9 +15388,9 @@ body.status-page .list-group {
 body.status-page .list-group .list-group-item {
   border-radius: 0;
   background-color: #ffffff;
-  border: 1px solid #e8e8e8;
   font-size: 1.1em;
-  padding: 15px 15px;
+  padding: 1.8rem;
+  border: none;
 }
 
 body.status-page .list-group .list-group-item a {
@@ -15370,8 +15410,6 @@ body.status-page .list-group .list-group-item p, body.status-page .list-group .l
 
 body.status-page .list-group .list-group-item.group-name {
   background-color: #e8e8e8;
-  padding-top: 0.6em;
-  padding-bottom: 0.6em;
   cursor: pointer;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -15383,6 +15421,19 @@ body.status-page .list-group .list-group-item.group-name {
 body.status-page .list-group .list-group-item.break {
   padding: 1px;
   background-color: #f0f3f4;
+}
+
+body.status-page .list-group .list-group-item .larger {
+  font-size: larger;
+}
+
+body.status-page .list-group .list-group-item .text-inline {
+  display: inline-flex;
+}
+
+body.status-page .list-group .list-group-item .status-text {
+  margin-left: 2rem;
+  font-size: small;
 }
 
 body.status-page .list-group.components {
@@ -15407,6 +15458,10 @@ body.status-page .list-group.components .badge {
 
 body.status-page .list-group.components a {
   color: #333 !important;
+}
+
+body.status-page .list-group.components .plus-minus-toggle {
+  margin-left: 2rem;
 }
 
 body.status-page footer {
