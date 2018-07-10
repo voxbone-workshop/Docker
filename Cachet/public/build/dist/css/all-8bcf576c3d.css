@@ -12275,11 +12275,6 @@ html {
   overflow-y: scroll;
 }
 
-body {
-  margin-bottom: 60px;
-  padding-bottom: 60px;
-}
-
 .uppercase {
   text-transform: uppercase;
 }
@@ -15263,9 +15258,11 @@ body.status-page .diagonal-green {
   object-fit: contain;
 }
 
-body.status-page .log-out-btn {
-  width: 24.8px;
-  height: 25.6px;
+body.status-page .u-content--upper {
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 3.2;
+  letter-spacing: 0.8px;
 }
 
 body.status-page .about-app {
@@ -15629,6 +15626,14 @@ body.status-page footer .footer_copyright {
   line-height: 2.14;
   letter-spacing: -0.4px;
   color: #ffffff;
+}
+
+body.status-page footer .footer_to_top_rectangle {
+  width: 63px;
+  height: 35px;
+  background-color: #595d73;
+  padding: 9px;
+  text-decoration: none;
 }
 
 @media (min-width: 768px) {

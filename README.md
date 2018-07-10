@@ -103,6 +103,6 @@ cd ..
 6. Open new terminal and run the following commands after getting container name via `docker ps`:
 
   ```shell
-  docker exec -i cachetdocker_cachet_1  php artisan key:generate
+  docker exec -i docker_cachet  php artisan key:generate
   docker exec -i cachetdocker_cachet_1  php artisan app:install
   ```

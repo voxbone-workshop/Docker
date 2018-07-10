@@ -3,7 +3,11 @@
 @else
 <footer class="footer">
     <div class="footer_rectangle">
-        <div class="footer__return"><a href="#top" ><span class="u-content--upper" >Top</span></a></div>
+        <div class="footer__return"><a class="footer_to_top_rectangle" href="#top" >
+                <span class="u-content--upper" >Top</span>
+                <img class="log-out-btn" src="img/up-arrow-small-white.svg">
+            </a>
+        </div>
         <div class="row">
             <div class="col-sm-10 footer_first_line">
                 <ul class="list-inline">
