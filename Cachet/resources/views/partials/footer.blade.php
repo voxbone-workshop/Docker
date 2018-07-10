@@ -1,7 +1,7 @@
 @if($app_footer)
 {!! $app_footer !!}
 @else
-<footer class="footer">
+<footer class="footer bottomed-abs">
     <div class="footer_rectangle">
         <div class="footer__return"><a class="footer_to_top_rectangle" href="#top" >
                 <span class="u-content--upper" >Top</span>

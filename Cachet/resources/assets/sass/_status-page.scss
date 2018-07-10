@@ -73,6 +73,12 @@ body.status-page {
 
     .container {
         max-width: 960px;
+        margin-bottom: 260px
+    }
+
+    .bottomed-abs {
+        bottom: 0;
+        position: absolute;
     }
 
     .page-header {

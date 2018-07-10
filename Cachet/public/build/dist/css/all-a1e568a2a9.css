@@ -15169,6 +15169,12 @@ body.status-page .text-danger, body.status-page .text-component-4 {
 
 body.status-page .container {
   max-width: 960px;
+  margin-bottom: 260px;
+}
+
+body.status-page .bottomed-abs {
+  bottom: 0;
+  position: absolute;
 }
 
 body.status-page .page-header {

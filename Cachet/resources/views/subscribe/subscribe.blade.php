@@ -13,7 +13,7 @@
     <div class="col-xs-12 col-lg-offset-2 col-lg-8">
         <div class="panel panel-meassage">
             <div class="panel-heading">
-                <h2>{{ trans('cachet.subscriber.subscribe') }}</h2>
+                <h2 class="text-center">{{ trans('cachet.subscriber.subscribe') }}</h2>
             </div>
             <div class="panel-body">
                 <form action="{{ route('subscribe.subscribe', [], false) }}" method="post" class="form">
