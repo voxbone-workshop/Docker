@@ -5,7 +5,7 @@
     <div class="footer_rectangle">
         <div class="footer__return"><a class="footer_to_top_rectangle" href="#top" >
                 <span class="u-content--upper" >Top</span>
-                <img class="log-out-btn" src="img/up-arrow-small-white.svg">
+                <img class="log-out-btn" src="/img/up-arrow-small-white.svg">
             </a>
         </div>
         <div class="row">
